@@ -2,8 +2,8 @@ apply plugin: 'com.android.library'
 apply from: '../dependencies.gradle'
 
 ext {
-    PUBLISH_GROUP_ID = 'com.afollestad.material-dialogs'
-    PUBLISH_ARTIFACT_ID = 'core'
+    PUBLISH_GROUP_ID = 'com.afollestad'
+    PUBLISH_ARTIFACT_ID = 'android-secure-storage'
     PUBLISH_VERSION = versions.publishVersion
 }
 

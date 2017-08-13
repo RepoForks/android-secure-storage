@@ -15,6 +15,24 @@ access the keys. This library is single-app use only.
 
 ---
 
+# Gradle Dependency
+
+### Repository
+
+The Gradle dependency is available via [jCenter](https://bintray.com/drummer-aidan/maven/android-secure-storage/view).
+jCenter is the default Maven repository used by Android Studio.
+
+### Dependency
+
+```gradle
+dependencies {
+	// ... other dependencies here
+    compile 'com.afollestad:android-secure-storage:0.0.1'
+}
+```
+
+---
+
 ## Instance Creation
 
 ```java
