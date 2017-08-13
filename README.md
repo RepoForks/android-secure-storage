@@ -1,6 +1,7 @@
 # Android Secure Storage
 
-[ ![Core](https://api.bintray.com/packages/drummer-aidan/maven/android-secure-storage/images/download.svg) ](https://bintray.com/drummer-aidan/maven/android-secure-storage/_latestVersion)
+[ ![Library](https://api.bintray.com/packages/drummer-aidan/maven/android-secure-storage/images/download.svg) ](https://bintray.com/drummer-aidan/maven/android-secure-storage/_latestVersion)
+[![Build Status](https://travis-ci.org/afollestad/android-secure-storage.svg?branch=master)](https://travis-ci.org/afollestad/android-secure-storage)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ace68cb79e6243a79d00da6be87bdb21)](https://www.codacy.com/app/drummeraidan_50/android-secure-storage?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=afollestad/android-secure-storage&amp;utm_campaign=Badge_Grade)
 
 This is a simple library that lets you encrypt and decrypt data/text. Android's
