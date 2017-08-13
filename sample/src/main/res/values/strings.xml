@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">android-secure-storage</string>
+
+    <string name="alias">Alias</string>
+    <string name="initialize_secure_storage">Initialize</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+
+</resources>

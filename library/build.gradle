@@ -1,0 +1,42 @@
+apply plugin: 'com.android.library'
+apply from: '../dependencies.gradle'
+
+ext {
+    PUBLISH_GROUP_ID = 'com.afollestad.material-dialogs'
+    PUBLISH_ARTIFACT_ID = 'core'
+    PUBLISH_VERSION = versions.publishVersion
+}
+
+android {
+    compileSdkVersion versions.compileSdk
+    buildToolsVersion versions.buildTools
+
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.compileSdk
+        versionCode versions.publishVersionCode
+        versionName versions.publishVersion
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:' + versions.supportLib
+    api 'io.reactivex.rxjava2:rxjava:' + versions.rxJava
+    api 'io.reactivex.rxjava2:rxandroid:' + versions.rxAndroid
+    api 'com.f2prateek.rx.preferences2:rx-preferences:' + versions.rxPrefs
+
+    testImplementation 'junit:junit:' + versions.junit
+
+    androidTestImplementation 'com.android.support.test:runner:' + versions.testRunner
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:' + versions.espresso
+}
+
+apply from: 'https://raw.githubusercontent.com/afollestad/aidanfollestad.com/master/android-lib-release.gradle'
