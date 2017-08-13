@@ -1,11 +1,13 @@
 # Android Secure Storage
 
-This is a simple library that lets you encrypt and decrypt data/text. Android's [keystore system]
-(https://developer.android.com/training/articles/keystore.html) is used to store cryptographic
-keys in a container to make it more difficult to extract from the device. The key material is
-non-exportable. The keystore system is used *instead* of the `KeyChain` API, because this library
-does not intend to allow system-wide credential storage, allowing multiple apps to access the keys.
-This library is single-app use only.
+[ ![Core](https://api.bintray.com/packages/drummer-aidan/maven/android-secure-storage/images/download.svg) ](https://bintray.com/drummer-aidan/maven/android-secure-storage/_latestVersion)
+
+This is a simple library that lets you encrypt and decrypt data/text. Android's
+[keystore system](https://developer.android.com/training/articles/keystore.html) is used to store
+cryptographic keys in a container to make it more difficult to extract from the device. The key
+material is non-exportable. The keystore system is used *instead* of the `KeyChain` API, because
+this library does not intend to allow system-wide credential storage, allowing multiple apps to
+access the keys. This library is single-app use only.
 
 *You should have a relatively good understanding of RxJava before using this library.*
 

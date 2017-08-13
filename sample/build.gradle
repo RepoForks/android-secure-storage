@@ -29,6 +29,5 @@ dependencies {
 
     testImplementation 'junit:junit:' + versions.junit
     androidTestImplementation 'com.android.support.test:runner:' + versions.testRunner
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:' + versions.espresso
     implementation project(path: ':library')
 }

@@ -11,7 +11,6 @@ ext.versions = [
         butterKnife       : '8.6.0',
         junit             : '4.12',
         testRunner        : '1.0.0',
-        espresso          : '3.0.0',
         rxJava            : '2.1.2',
         rxAndroid         : '2.0.1',
         butterknife       : '8.8.1',

@@ -1,16 +1,14 @@
 package com.afollestad.androidsecurestorage;
 
-import android.content.Context;
-import android.support.test.runner.AndroidJUnit4;
-
-import org.junit.Test;
-import org.junit.runner.RunWith;
-
-import java.util.Arrays;
-
 import static android.support.test.InstrumentationRegistry.getTargetContext;
 import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
+
+import android.content.Context;
+import android.support.test.runner.AndroidJUnit4;
+import java.util.Arrays;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
 public class MainTest {

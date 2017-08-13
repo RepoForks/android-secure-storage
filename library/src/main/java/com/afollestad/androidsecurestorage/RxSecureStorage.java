@@ -6,9 +6,11 @@ import android.os.Build;
 import android.security.KeyPairGeneratorSpec;
 import android.support.annotation.Nullable;
 import android.util.Base64;
-
 import com.f2prateek.rx.preferences2.RxSharedPreferences;
-
+import io.reactivex.Observable;
+import io.reactivex.Single;
+import io.reactivex.functions.Function;
+import io.reactivex.schedulers.Schedulers;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
@@ -20,16 +22,10 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.util.Calendar;
 import java.util.concurrent.Callable;
-
 import javax.crypto.Cipher;
 import javax.crypto.CipherInputStream;
 import javax.crypto.CipherOutputStream;
 import javax.security.auth.x500.X500Principal;
-
-import io.reactivex.Observable;
-import io.reactivex.Single;
-import io.reactivex.functions.Function;
-import io.reactivex.schedulers.Schedulers;
 
 @SuppressWarnings("WeakerAccess")
 public class RxSecureStorage {

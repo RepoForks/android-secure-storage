@@ -34,9 +34,7 @@ dependencies {
     api 'com.f2prateek.rx.preferences2:rx-preferences:' + versions.rxPrefs
 
     testImplementation 'junit:junit:' + versions.junit
-
     androidTestImplementation 'com.android.support.test:runner:' + versions.testRunner
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:' + versions.espresso
 }
 
 apply from: 'https://raw.githubusercontent.com/afollestad/aidanfollestad.com/master/android-lib-release.gradle'

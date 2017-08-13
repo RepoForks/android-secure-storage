@@ -17,6 +17,12 @@ allprojects {
         jcenter()
     }
 
+    buildscript {
+        repositories {
+            maven { url "https://plugins.gradle.org/m2/" }
+        }
+    }
+
     apply plugin: "com.diffplug.gradle.spotless"
     spotless {
         java {
